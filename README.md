@@ -55,7 +55,7 @@ collection:
 #### Collections
 Collections have deliberately been left empty, so as not to force any certain pattern or become reliant on defaults. Look at the `metalsmith-collections` documentation to see how to implement them.
 
-## Build, Deploy, and Clean
+## Build, Clean, and Deploy
 
 #### Build
 Compiles site from contents in `src/` and templates in `layouts/`.
