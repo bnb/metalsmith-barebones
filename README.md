@@ -55,6 +55,28 @@ collection:
 #### Collections
 Collections have deliberately been left empty, so as not to force any certain pattern or become reliant on defaults. Look at the `metalsmith-collections` documentation to see how to implement them.
 
+## Build, Deploy, and Clean
+
+#### Build
+Compiles site from contents in `src/` and templates in `layouts/`.
+```bash
+cd /path/to/metalsmith-barebones
+node build
+```
+
+#### Clean
+Wipes your local `build/` folder clean.
+```bash
+cd /path/to/metalsmith-barebones
+gulp clean
+```
+
+#### Deploy
+Pushes `build/` to the `gh-pages` branch on GitHub. **The gh-pages branch must already exist in your site's repository on GitHub.com!**
+```bash
+cd /path/to/metalsmith-barebones
+gulp deploy
+```
 
 
 [metalsmith]: http://metalsmith.io
