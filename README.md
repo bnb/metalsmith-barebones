@@ -46,7 +46,6 @@ Here is a template for basic front-matter that can be extended:
 ```
 ---
 title:
-slug:
 layout:
 collection:
 ---
