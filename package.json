@@ -1,27 +1,26 @@
 {
-  "name": "metalsmith-timeline",
+  "name": "metalsmith-barebones",
   "version": "0.1.0",
-  "description": "A timeline generator in Metalsmith",
+  "description": "A barebones boilerplate for Metalsmith websites",
   "main": "build.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/metalsmith-timeline.git"
+    "url": "git+https://github.com/bnb/metalsmith-barebones.git"
   },
   "keywords": [
     "metalsmith",
-    "timeline",
-    "time",
-    "line"
+    "barebones",
+    "bare",
+    "bones",
+    "bp",
+    "boilerplate"
   ],
   "author": "&! (bitandbang)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bnb/metalsmith-timeline/issues"
+    "url": "https://github.com/bnb/metalsmith-barebones/issues"
   },
-  "homepage": "https://github.com/bnb/metalsmith-timeline#readme",
+  "homepage": "https://github.com/bnb/metalsmith-barebones#readme",
   "dependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.0",
