@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-barebones",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A barebones boilerplate for Metalsmith websites",
   "main": "build.js",
   "repository": {
