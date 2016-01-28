@@ -19,9 +19,13 @@
     "build": "node build",
     "clean": "trash 'build/**/*'",
     "gh-pages": "git push origin `git subtree split --prefix build master`:gh-pages --force",
-    "deploy": "npm clean && npm gh-pages"
+    "deploy": "npm run clean && npm run gh-pages"
   },
-  "author": "&! (bitandbang)",
+  "author": {
+    "name": "&! (bitandbang)",
+    "url": "https://bnb.im",
+    "email": "hello@bnb.im"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bnb/metalsmith-barebones/issues"
@@ -32,10 +36,12 @@
     "gh-pages": "^0.8.0",
     "handlebars": "^4.0.5",
     "metalsmith": "^2.1.0",
+    "metalsmith-markdown": "^0.2.1",
     "metalsmith-assets": "^0.1.0",
+    "metalsmith-clean-css": "^2.0.0",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-layouts": "^1.4.2",
-    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-watch": "^1.0.1",
     "trash-cli": "^1.2.0"
   }
 }
