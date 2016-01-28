@@ -4,6 +4,7 @@ var assets      = require('metalsmith-assets');
 var cleanCSS    = require('metalsmith-clean-css');
 var collections = require('metalsmith-collections');
 var layouts     = require('metalsmith-layouts');
+var watch       = require('metalsmith-watch');
 
 
 
@@ -31,6 +32,20 @@ metalsmith(__dirname)
     }))
     .use(layouts({
         engine: 'handlebars'
+    }))
+    .use(watch({
+      paths: {
+        "assets/**/*.js": true,
+        "assets/**/*.css": true,
+        "assets/**/*.jpg": true,
+        "assets/**/*.gif": true,
+        "assets/**/*.png": true,
+        "assets/**/*.pdf": true,
+        "assets/**/*.zip": true,
+        "layouts/**/*.hbs": true,
+        "partials/**/*.hbs": true,
+        "${source}/**/*.md": true
+      }
     }))
     .build(function(err){
         if(err) throw(err)
